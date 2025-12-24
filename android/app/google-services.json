@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "613291437830",
+    "project_id": "todo-mate-96cdb",
+    "storage_bucket": "todo-mate-96cdb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613291437830:android:314f3ac047b0b2e476b887",
+        "android_client_info": {
+          "package_name": "com.example.todo_mate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD18WFmhuJJZtiqCMU4EVKz8RFr7jKV4Dk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

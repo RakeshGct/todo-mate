@@ -52,8 +52,16 @@ class _LoginScreenState extends State<LoginScreen> {
                 backgroundColor: AppColors.error,
               ),
             );
+          } else if (state is AuthAuthenticated) {
+            // Navigate to home and remove all previous routes (login/register)
+            Navigator.pushNamedAndRemoveUntil(
+              context,
+              '/home',
+              (route) => false,
+            );
           }
         },
+
         builder: (context, state) {
           return SafeArea(
             child: SingleChildScrollView(

@@ -55,6 +55,13 @@ class _RegisterScreenState extends State<RegisterScreen> {
                 backgroundColor: AppColors.error,
               ),
             );
+          } else if (state is AuthAuthenticated) {
+            // Navigate to home and clear stack
+            Navigator.pushNamedAndRemoveUntil(
+              context,
+              '/home',
+              (route) => false,
+            );
           }
         },
         builder: (context, state) {

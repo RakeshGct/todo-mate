@@ -118,7 +118,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                   child: Text(
                     'Apply Filters',
-                    style: TextStyle(fontSize: 16.sp),
+                    style: TextStyle(fontSize: 16.sp, color: Colors.white),
                   ),
                 ),
               ),
